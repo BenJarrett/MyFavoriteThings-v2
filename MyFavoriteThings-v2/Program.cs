@@ -30,7 +30,15 @@ namespace MyFavoriteThings_v2
 
             var gOT = new Book("Game Of Thones", "George R.R. Martin", 867);
 
-            gOT.Read(56);
+
+            gOT.Read();
+            gOT.Read();
+            gOT.Read();
+            gOT.Read();
+            gOT.Read();
+
+            
+
         }
         
     }

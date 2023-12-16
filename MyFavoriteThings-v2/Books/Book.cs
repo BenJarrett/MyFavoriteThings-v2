@@ -20,17 +20,23 @@ namespace MyFavoriteThings_v2.Books
             Length = length;
         }
 
-        int _numberOfPagesRead;
+        int _readPage;
+
         public void Open()
         {
             Console.WriteLine($"I sat down and opened up {Title} by {Author}");
         }
 
-        public void Read(int pagesRead)
+        
+        public void Read()
         {
-            _numberOfPagesRead++;
-            Console.WriteLine($"I've read {pagesRead} pages so far." );
+            {
+                _readPage++;
+                Console.WriteLine($"I read another page! That's {_readPage} so far.");
+            }
+            
         }
+
 
     }
 
